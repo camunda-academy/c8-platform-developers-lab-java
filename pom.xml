@@ -19,12 +19,12 @@
     <dependency>
     	<groupId>io.camunda</groupId>
 	    <artifactId>zeebe-client-java</artifactId>
-	    <version>8.5.7</version>
+	    <version>8.7.5</version>
 	</dependency>
     <dependency>
       <groupId>ch.qos.logback</groupId>
       <artifactId>logback-classic</artifactId>
-      <version>1.4.14</version>
+      <version>1.5.18</version>
     </dependency>
   </dependencies>
     <build>
@@ -32,7 +32,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.13.0</version>
+                <version>3.14.0</version>
                 <configuration>
                     <source>${java.version}</source>
                     <target>${java.version}</target>
